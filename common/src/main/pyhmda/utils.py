@@ -91,7 +91,7 @@ def replace_MedianAge_2002_values(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# Modifications to published Census Flat Files directed by the US Census Bureau.
+# Modifications to published Census Flat Files directed by the FFIEC.
 census_file_authorized_modifications = {
     datetime(2024, 9, 1) : replace_MedianAge_2002_values
 }
